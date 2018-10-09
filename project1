@@ -14,6 +14,7 @@ exec 10<&0
 exec < $1
 # remember the name of the input file
 in=$1
+in=$2
 
 # init
 file="current_line.txt"
